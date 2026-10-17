@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Dev runtime (game run directory, diagnostic logs)
+run/
+runclient-diag*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+Thumbs.db
+.DS_Store

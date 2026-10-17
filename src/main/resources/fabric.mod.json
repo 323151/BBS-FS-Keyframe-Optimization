@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "bbscombinedgizmo",
+    "version": "${version}",
+    "name": "Keyframe Optimization",
+    "description": "Keyframe editing optimizations for BBS 2.7: restores the 2.5.2 gizmo display modes (T toggle, G/S/R first-press switch), optional two-axis planes in single modes, a hold-to-bypass tick snapping key for the timeline, auto limb keyframes in the replay editor, Blender-style pose summary tracks, and batch value edits over marquee-selected keyframes.",
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "bbs-addon": ["com.bbscg.CombinedGizmoAddon"],
+        "bbs-client-addon": ["com.bbscg.CombinedGizmoClientAddon"]
+    },
+    "mixins": [
+        {
+            "config": "bbscombinedgizmo.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": "=1.20.1",
+        "java": ">=17",
+        "bbs": "2.7-1.20.1"
+    }
+}

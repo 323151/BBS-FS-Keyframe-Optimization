@@ -1,0 +1,34 @@
+{
+    "required": true,
+    "package": "com.bbscg.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "client": [
+        "GizmoMixin",
+        "TransformGestureMixin",
+        "UIPropTransformMixin",
+        "UIFilmKeyframesMixin",
+        "UIReplaysEditorUtilsMixin",
+        "UITimelineCanvasMixin",
+        "UIKeyframesMixin",
+        "UIKeyframeDopeSheetAccessor",
+        "UIKeyframeDopeSheetMixin",
+        "UIReplaysEditorMixin",
+        "UIPoseTransformsMixin",
+        "UIKeyframePropTransformMixin",
+        "UITransformMixin",
+        "UIPoseTransformKeyframeFactoryMixin",
+        "ParticleParserMixin",
+        "ParticleCurveMixin",
+        "ParticleGradientMixin",
+        "ParticleBillboardMixin",
+        "ParticleMotionCollisionMixin",
+        "ParticleEmitterMixin",
+        "ParticleMixin",
+        "ParticleComponentInitializationMixin",
+        "ParticleComponentLocalSpaceMixin",
+        "MolangParserMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
